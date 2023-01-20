@@ -7,9 +7,7 @@ body {
 }
 
 .bottom {
-    position: absolute;
     width: 100%;
-    bottom: 0px;
 }
 
 #types-table, #types-table th, #types-table td {
@@ -26,4 +24,16 @@ body {
 
 #types-table th {
     background-color: aquamarine;
+}
+
+#visualizations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#visualizations img {
+    width: 700px;
 }
