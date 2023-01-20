@@ -11,3 +11,19 @@ body {
     width: 100%;
     bottom: 0px;
 }
+
+#types-table, #types-table th, #types-table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#types-table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+#types-table th {
+    background-color: aquamarine;
+}
