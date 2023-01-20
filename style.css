@@ -37,3 +37,21 @@ body {
 #visualizations img {
     width: 700px;
 }
+
+#decorations {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+rect {
+    stroke-width: 10px;
+    stroke: black;
+    opacity: 1;
+    fill: green;
+}
+
+circle {
+    opacity: 0.5;
+    fill: green;
+}
