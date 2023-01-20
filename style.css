@@ -51,7 +51,17 @@ rect {
     fill: green;
 }
 
+rect:hover {
+    fill: tan;
+}
+
 circle {
-    opacity: 0.5;
+    fill-opacity: 0.5;
     fill: green;
+}
+
+circle:hover {
+    stroke-width: 10px;
+    stroke: black;
+    stroke-opacity: 1;
 }
