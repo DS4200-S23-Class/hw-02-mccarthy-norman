@@ -28,7 +28,7 @@ body {
 
 #visualizations {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-right: 10px;
     margin-left: 10px;
@@ -36,6 +36,10 @@ body {
 
 #visualizations img {
     width: 700px;
+}
+
+#visualizations p {
+    color: blue;
 }
 
 #decorations {
